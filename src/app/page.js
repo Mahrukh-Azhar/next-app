@@ -11,7 +11,12 @@ export default function HomePage() {
             <Link href="/home/main/work">Go to Work Page</Link>
           </li>
           <li>
-            <Link href="/project/123">Go to Project 1 First Page</Link>
+            <Link href="/project/12345">Go to Project 1 First Page</Link>
+          </li>
+          <li>
+            <Link href="/people" target="blank" rel="noopener noreferrer">
+              Go to people Page
+            </Link>
           </li>
         </ul>
       </nav>
