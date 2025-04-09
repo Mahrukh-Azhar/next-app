@@ -18,12 +18,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 10px;
 }
 .content {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+}
+.Name label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  margin-top: 25px;
 }
 .Name label sup {
   color: red;
@@ -54,11 +63,10 @@
 }
 .Email {
   width: 100%;
-}
-.emailcon {
   display: flex;
-  width: 100%;
+  flex-direction: column;
 }
+
 .Email label {
   display: block;
   margin-bottom: 8px;
@@ -70,7 +78,6 @@
 .inputemail {
   border: 1px solid black;
   padding: 8px;
-  width: 100%;
 }
 .lastbox label {
   display: block;
@@ -80,16 +87,10 @@
   color: #333;
   margin-top: 25px;
 }
-.Name label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-  font-size: 16px;
-  color: #333;
-  margin-top: 25px;
-}
 
 .lastbox {
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 

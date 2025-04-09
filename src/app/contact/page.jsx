@@ -31,25 +31,13 @@ function page() {
             <label>
               Email<sup>*</sup>
             </label>
-            <div className={styles.emailcon}>
-              <div className={styles.input1}>
-                <input
-                  type="Text"
-                  placeholder=""
-                  className={styles.inputemail}
-                />
-              </div>
-            </div>
+            <input type="Text" placeholder="" className={styles.inputemail} />
           </div>
           <div className={styles.lastbox}>
             <label>
               leave us a few words<sup>*</sup>
             </label>
-            <div className={styles.emailcon}>
-              <div className={styles.input1}>
-                <input type="Text" placeholder="" className={styles.input3} />
-              </div>
-            </div>
+            <input type="Text" placeholder="" className={styles.input3} />
           </div>
           <div className={styles.buttoncon}>
             <button className={styles.button}>SUBMIT</button>
