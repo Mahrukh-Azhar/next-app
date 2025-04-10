@@ -5,7 +5,10 @@ function page() {
   return (
     <div className={styles.main}>
       <div className={styles.image}>
-        <img src="https://asset.velvetjobs.com/job-description-samples/covers/w992/customer-service-representative.jpeg" />
+        <img
+          src="https://asset.velvetjobs.com/job-description-samples/covers/w992/customer-service-representative.jpeg"
+          alt="repre"
+        />
       </div>
       <div className={styles.form}>
         <div className={styles.content}>
@@ -18,11 +21,17 @@ function page() {
             </label>
             <div className={styles.inputfields}>
               <div className={styles.input1}>
-                <input type="Text" placeholder="" className={styles.input} />
+                <div className={styles.inputWrapper}>
+                  <input type="Text" placeholder="" className={styles.input} />
+                  <div className={styles.line} />
+                </div>
                 <p>First</p>
               </div>
               <div className={styles.input1}>
-                <input type="Text" placeholder="" className={styles.input} />
+                <div className={styles.inputWrapper}>
+                  <input type="text" placeholder="" className={styles.input} />
+                  <div className={styles.line} />
+                </div>
                 <p>Last</p>
               </div>
             </div>
@@ -31,7 +40,11 @@ function page() {
             <label>
               Email<sup>*</sup>
             </label>
-            <input type="Text" placeholder="" className={styles.inputemail} />
+
+            <div className={styles.inputWrapper}>
+              <input type="Text" placeholder="" className={styles.input} />
+              <div className={styles.line} />
+            </div>
           </div>
           <div className={styles.lastbox}>
             <label>
